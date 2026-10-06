@@ -28,9 +28,3 @@ Your gallery holds the shots that matter, and next to them dozens of duplicates,
 **Make photos lighter.** Swipe up to send JPEG, HEIC/HEIF and PNG photos to background compression without changing the resolution. The original joins the deletion queue only after the compressed copy is checked.
 
 **Go at your own pace.** A small daily selection with a goal and a streak of days, optional reminders, filters by date, size and file type, light and dark themes, English and Russian.
-
----
-
-<p align="center">
-  Questions and support: <a href="mailto:compressify@yandex.ru">compressify@yandex.ru</a>
-</p>

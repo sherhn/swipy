@@ -1,0 +1,22 @@
+:root{color-scheme:light;--ink:#101010;--paper:#f2ebe1;--accent:#a92f13}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:1.65}
+a{color:var(--accent);text-underline-offset:3px;overflow-wrap:anywhere}
+a:hover{text-decoration-thickness:2px}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:5px;border-radius:2px}
+.legal-header,main,footer{width:min(100% - 48px,800px);margin-inline:auto}
+.legal-header{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:28px 0;border-bottom:1px solid #c9bcb0}
+.brand{display:flex;align-items:center;gap:10px;color:var(--ink);font-size:30px;font-weight:800;line-height:1;text-decoration:none;letter-spacing:-1.5px}
+.brand img{flex:none}.accent{color:var(--accent)}
+nav{display:flex;gap:22px;flex-wrap:wrap;font-size:14px;line-height:1.4}
+nav [aria-current]{font-weight:700}
+main{padding:48px 0 44px;overflow-wrap:anywhere}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--accent);margin:0 0 18px}
+h1{font-size:clamp(30px,6vw,52px);letter-spacing:-.035em;line-height:1.1;margin:0 0 24px}
+h2{font-size:24px;line-height:1.25;margin:40px 0 16px;letter-spacing:-.02em}
+p{margin:0 0 18px}
+footer{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;border-top:1px solid #c9bcb0;padding:24px 0 36px;font-size:14px}
+.skip-link{position:absolute;top:8px;left:12px;transform:translateY(-160%);background:var(--paper);padding:8px;z-index:2}
+.skip-link:focus{transform:none}
+@media(max-width:540px){body{font-size:16px}.legal-header,main,footer{width:calc(100% - 36px)}.legal-header{align-items:flex-start;flex-direction:column;gap:20px;padding:22px 0}nav{gap:18px}main{padding:32px 0}h2{font-size:22px;margin-top:32px}}
+@media print{body{background:white;font-size:11pt}.legal-header,main,footer{width:100%}.legal-header,footer,.skip-link{display:none}main{padding:0}h1{font-size:24pt}h2{break-after:avoid;font-size:15pt}a{color:inherit}}

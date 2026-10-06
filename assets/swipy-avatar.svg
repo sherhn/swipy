@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="160 150 720 720" fill="none" aria-label="Swipy">
+  <defs>
+    <linearGradient id="cardBack1" x1="269" y1="330" x2="619" y2="719" gradientUnits="userSpaceOnUse"><stop stop-color="#f37450" stop-opacity=".72"/><stop offset="1" stop-color="#a92f13" stop-opacity=".65"/></linearGradient>
+    <linearGradient id="cardBack2" x1="247" y1="361" x2="579" y2="712" gradientUnits="userSpaceOnUse"><stop stop-color="#bd573b" stop-opacity=".55"/><stop offset="1" stop-color="#5b3024" stop-opacity=".62"/></linearGradient>
+    <linearGradient id="cardFront" x1="420" y1="248" x2="644" y2="773" gradientUnits="userSpaceOnUse"><stop stop-color="#fff7ed"/><stop offset=".54" stop-color="#f2ebe1"/><stop offset="1" stop-color="#dfd0bc"/></linearGradient>
+    <linearGradient id="cardEdge" x1="417" y1="248" x2="630" y2="786" gradientUnits="userSpaceOnUse"><stop stop-color="#fff7ed" stop-opacity=".9"/><stop offset="1" stop-color="#dfd0bc" stop-opacity=".75"/></linearGradient>
+    <linearGradient id="orbit" x1="270" y1="682" x2="825" y2="342" gradientUnits="userSpaceOnUse"><stop stop-color="#a92f13"/><stop offset=".2" stop-color="#d34b29"/><stop offset=".52" stop-color="#f37450"/><stop offset=".78" stop-color="#ff9777"/><stop offset="1" stop-color="#ffe0cc"/></linearGradient>
+    <linearGradient id="orbitBack" x1="212" y1="630" x2="620" y2="423" gradientUnits="userSpaceOnUse"><stop stop-color="#692b1c" stop-opacity=".72"/><stop offset=".55" stop-color="#a92f13" stop-opacity=".88"/><stop offset="1" stop-color="#d65d3d" stop-opacity=".62"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#171717" flood-opacity=".28"/></filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#171717" flood-opacity=".28"/></filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="255" y="329" width="404" height="448" rx="44" fill="url(#cardBack2)" transform="rotate(-18 255 329)"/>
+    <rect x="294" y="296" width="419" height="474" rx="44" fill="url(#cardBack1)" transform="rotate(-11 294 296)"/>
+  </g>
+  <path d="M223 621 C319 654 426 632 536 593 C672 545 768 480 813 412 C827 391 825 369 809 352" stroke="url(#orbitBack)" stroke-width="42" stroke-linecap="round" filter="url(#softShadow)"/>
+  <g filter="url(#softShadow)"><rect x="349" y="225" width="409" height="555" rx="48" fill="url(#cardFront)" stroke="url(#cardEdge)" stroke-width="3" transform="rotate(8 349 225)"/></g>
+  <path d="M338 623 C479 603 632 548 760 459" stroke="#dfd0bc" stroke-opacity=".11" stroke-width="70" stroke-linecap="round"/>
+  <path d="M216 622 C318 657 456 631 594 578 C714 532 799 474 842 414 C857 393 857 370 842 354" stroke="url(#orbit)" stroke-width="58" stroke-linecap="round" filter="url(#softShadow)"/>
+  <path d="M621 560 C720 518 799 465 840 407" stroke="#fff7ed" stroke-opacity=".34" stroke-width="5" stroke-linecap="round"/>
+  <path d="M240 608 C322 634 420 621 506 594" stroke="#ff9777" stroke-opacity=".26" stroke-width="4" stroke-linecap="round"/>
+</svg>

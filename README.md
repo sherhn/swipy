@@ -1,47 +1,36 @@
 <p align="center">
-  <img src="assets/og-ru.png" alt="Swipy — память, не мусор" width="720">
+  <img src="assets/og-en.png" alt="Swipy — memories aren't clutter" width="720">
 </p>
 
-<h3 align="center">Разбирайте фото свайпами, находите дубли и сжимайте снимки на телефоне.</h3>
+<h3 align="center">Sort photos with swipes, find duplicates and compress shots right on your phone.</h3>
 
 <p align="center">
-  Приложение для Android и iOS · <b>в разработке</b><br>
+  An app for Android and iOS · <b>in development</b><br>
   <a href="https://compressify.pro">Swipy by Compressify</a>
 </p>
 
 ---
 
-В галерее есть те самые кадры, а рядом — десятки дублей, случайных снимков и забытых видео. Swipy помогает разобрать этот архив постепенно и оставить то, что важно вам. Ничего не удаляется без вашего подтверждения.
+Your gallery holds the shots that matter, and next to them dozens of duplicates, accidental photos and forgotten videos. Swipy helps you sort that archive bit by bit and keep what matters to you. Nothing is deleted without your confirmation.
 
-<table>
-  <tr>
-    <td width="33%"><img src="assets/readme/01-gallery.webp" alt="Память — не мусор"></td>
-    <td width="33%"><img src="assets/readme/02-favorites.webp" alt="Те самые кадры"></td>
-    <td width="33%"><img src="assets/readme/03-similar.webp" alt="Три дубля. Один любимый"></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Разбор свайпами.</b> Выберите альбом, листайте фото и видео: любимое — в избранное, лишнее — в очередь. Жесты настраиваются.</td>
-    <td valign="top"><b>Те самые кадры.</b> Избранное всегда под защитой — Swipy не предложит убрать его при выборе лишнего.</td>
-    <td valign="top"><b>Похожие снимки.</b> Дубли и серии почти одинаковых кадров собраны в группы. Поиск работает на вашем устройстве.</td>
-  </tr>
-  <tr>
-    <td><img src="assets/readme/04-deletion.webp" alt="Сначала проверьте"></td>
-    <td><img src="assets/readme/05-compression.webp" alt="Фото легче. Архив с вами"></td>
-    <td><img src="assets/readme/06-daily.webp" alt="По чуть-чуть. Каждый день"></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Сначала проверьте.</b> Свайп только добавляет кадр в очередь. Удаление начнётся после вашего подтверждения.</td>
-    <td valign="top"><b>Фото легче.</b> Сжатие JPEG, HEIC и PNG без изменения разрешения. Оригинал попадает в очередь только после проверки копии.</td>
-    <td valign="top"><b>По чуть-чуть.</b> Небольшая подборка дня, цель и серия дней. Напоминания — по желанию.</td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/readme/sort.jpg" alt="Swipe. Then check." width="600">
+</p>
 
-## Под себя
+**Sort with swipes.** Pick an album and go through photos and videos: favorites to the favorites, the rest to the deletion queue. Swipe directions and the double-tap action are yours to set. Review the queue before anything is removed; deletion starts only after you confirm.
 
-Фильтры по дате, размеру и типу файла, светлая и тёмная темы, русский и английский языки. Шкалу прогресса и подсказки жестов можно отключить.
+<p align="center">
+  <img src="assets/readme/similar.jpg" alt="Three twins. Keep one." width="600">
+</p>
+
+**Compare similar shots.** Similar photos appear in groups right in the feed, and a separate search finds copies so you can pick what to keep. It runs on your device, and your favorites stay protected.
+
+**Make photos lighter.** Swipe up to send JPEG, HEIC/HEIF and PNG photos to background compression without changing the resolution. The original joins the deletion queue only after the compressed copy is checked.
+
+**Go at your own pace.** A small daily selection with a goal and a streak of days, optional reminders, filters by date, size and file type, light and dark themes, English and Russian.
 
 ---
 
 <p align="center">
-  Вопросы и поддержка: <a href="mailto:compressify@yandex.ru">compressify@yandex.ru</a>
+  Questions and support: <a href="mailto:compressify@yandex.ru">compressify@yandex.ru</a>
 </p>
